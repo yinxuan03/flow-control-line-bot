@@ -1,6 +1,6 @@
 function getEvacuationMessage(suggestions: any):any {
   let evac_image: string[] = [];
-
+  
   for(var i = 0 ; i < 3 ; i++){
     switch(suggestions[i]){
       case "台北101/世貿捷運站":{
